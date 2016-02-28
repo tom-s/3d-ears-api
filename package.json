@@ -16,7 +16,7 @@
     "test": "`npm bin`/mocha --compilers js:babel-core/register --require ./tests/test_helper.js '*/tests/**/*.@(js|jsx)'",
     "test:watch": "npm run test -- --watch",
     "babel": "babel-node",
-    "lint": "`npm bin`/eslint ./src ./tests"
+    "lint": "`npm bin`/eslint ./src ./tests || true"
   },
   "repository": {
     "type": "git",
